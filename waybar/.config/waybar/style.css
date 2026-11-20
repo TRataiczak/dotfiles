@@ -1,0 +1,38 @@
+/* One colour throughout: grey text on black, white for what's active */
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 13px;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+}
+
+window#waybar {
+  background: #000000;
+  color: #bbbbbb;
+}
+
+#workspaces button {
+  color: #555555;
+  padding: 0 8px;
+  background: transparent;
+}
+#workspaces button.active { color: #ffffff; }
+#workspaces button:hover { background: #111111; }
+
+#clock { color: #ffffff; }
+
+#cpu, #memory, #pulseaudio, #network, #bluetooth, #tray {
+  padding: 0 10px;
+  color: #bbbbbb;
+}
+
+/* Thin divider between right-hand modules */
+#memory, #pulseaudio, #network, #bluetooth, #tray {
+  border-left: 1px solid #222222;
+}
+
+tooltip {
+  background: #000000;
+  border: 1px solid #333333;
+}

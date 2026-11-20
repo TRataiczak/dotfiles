@@ -53,6 +53,7 @@ seahorse
 slurp
 spotify
 steam
+stow
 sudo
 thunar
 ttf-jetbrains-mono-nerd
