@@ -42,6 +42,7 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("systemctl --user start hyprpolkitagent")
     hl.exec_cmd("nm-applet --indicator")
     hl.exec_cmd("wl-paste --watch cliphist store")
+    hl.exec_cmd("dbus-update-activation-environment --systemd --all")
 end)
 
 ------------------ LOOK & FEEL ---------------
