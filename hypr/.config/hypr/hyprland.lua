@@ -61,7 +61,7 @@ hl.config({
     },
     animations = { enabled = true },
     dwindle = { preserve_split = true },
-    misc = { disable_hyprland_logo = true, disable_splash_rendering = true },
+    misc = { disable_hyprland_logo = true, disable_splash_rendering = true, force_default_wallpaper = 0 },
     input = { kb_layout = "us", follow_mouse = 1, sensitivity = 0 },
 })
 
