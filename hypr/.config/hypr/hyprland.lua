@@ -11,7 +11,7 @@ local main     = "DP-2"  -- landscape, in front
 -- Portrait is 1440 wide once rotated, so the main screen starts at x = 1440
 -- If the portrait screen is upside down, change transform 1 to 3
 hl.monitor({ output = portrait, mode = "preferred", position = "0x0",    scale = 1, transform = 1 })
-hl.monitor({ output = main,     mode = "preferred", position = "1440x0", scale = 1 })
+hl.monitor({ output = main,     mode = "preferred", position = "1440x560", scale = 1 })
 
 ------------------ WORKSPACES ----------------
 for i = 1, 5 do
