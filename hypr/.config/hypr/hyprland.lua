@@ -2,6 +2,7 @@
 local terminal = "kitty"
 local menu     = "fuzzel"
 local mod      = "SUPER"
+local browser  = "firefox"
 
 ------------------ MONITORS ------------------
 -- Check names with `hyprctl monitors` and swap these if needed
@@ -72,6 +73,7 @@ hl.bind(mod .. " + Return", hl.dsp.exec_cmd(terminal))
 hl.bind(mod .. " + Space",  hl.dsp.exec_cmd(menu))
 hl.bind(mod .. " + E",      hl.dsp.exec_cmd("thunar"))
 hl.bind(mod .. " + L",      hl.dsp.exec_cmd("hyprlock"))
+hl.bind(mod .. " + B",      hl.dsp.exec_cmd(browser))
 
 -- Windows
 hl.bind(mod .. " + Q", hl.dsp.window.close())   -- graceful close
