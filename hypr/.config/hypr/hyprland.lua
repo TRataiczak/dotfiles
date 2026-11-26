@@ -73,7 +73,8 @@ hl.bind(mod .. " + Return", hl.dsp.exec_cmd(terminal))
 hl.bind(mod .. " + Space",  hl.dsp.exec_cmd(menu))
 hl.bind(mod .. " + E",      hl.dsp.exec_cmd("thunar"))
 hl.bind(mod .. " + L",      hl.dsp.exec_cmd("hyprlock"))
-hl.bind(mod .. " + B",      hl.dsp.exec_cmd(browser))
+hl.bind(mod .. " + B",      hl.dsp.exec_cmd(browser .. ' --profile "/home/tj/.config/mozilla/firefox/u3gsmmkg.default-release"'))
+hl.bind(mod .. " + W",      hl.dsp.exec_cmd(browser .. ' --profile "/home/tj/.config/mozilla/firefox/NUWM0fNZ.Profile 1"'))
 
 -- Windows
 hl.bind(mod .. " + Q", hl.dsp.window.close())   -- graceful close
